@@ -1,0 +1,93 @@
+/* Import Google Font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box; 
+font-family: 'poppin  s', sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #43Affc;
+}
+.wrapper{
+    width: 400px;
+    background: 400px;
+    border-radius: 7px;
+}
+.wrapper header{
+    color: #43Affc;
+    font-size: 21px;
+    font-weight: 500;
+    padding: 16px 15px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #bfbfbf;
+}
+header i{
+    cursor: pointer;
+    font-size: 30px;
+    margin-right: 8px;
+}
+.wrapper .input-part{
+    display: none;
+    margin: 20px 25px 30px;
+}
+.input-part .info-txt{
+    font-size: 17px;
+    background: red;
+    text-align: center;
+    padding: 12px 10;
+    border-radius: 7px;
+}
+.input-part :where(input, button){
+    width: 100px;
+    height: 55px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 7px;
+}
+.info-txt.error{
+display: block;
+ color: #721c24;
+ background: #f8d7da;
+ border:-radius 1px solid #f5c6cb;   
+}
+.info-txt.pending{
+    color: #721c24;
+    background: #f8d7da;
+    border:-radius 1px solid #f5c6cb;  
+} 
+   
+.input-part input{
+    text-align: center;
+    border: 1px solid #bfbfbf;
+}
+.input-part .separator{
+    height: 1px;
+    width: 100%;
+    margin: 25px 0;
+    background: #ccc;
+}
+.separator::before{
+    content: "or";
+    color: #ccc;
+    font-size: 19px;
+    padding: 0 15px;
+    background: #fff;
+}
+.input-part button{
+    color: #fff;
+    cursor: pointer;
+    background: #43Affc;
+}
+
+.input-part button{
+
+}
+
+
